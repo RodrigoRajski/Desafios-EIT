@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Josefin' sans-serif;
+}
+body{
+    background-image: url(/img/diseno-fondo-verde-futurista_483364-1092.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Josefin' sans-serif;
+}
+.gym{
+    width: clamp(320px, 80vw, 700px);
+    margin: 30px auto;
+}
+header{
+    color: green;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    text-align: start;
+    margin-bottom: 45px;
+    text-shadow: 0 0 30px white;
+    box-shadow: 0 0 80px white;
+    font-weight: bolder;
+    margin-left: 4%;
+    margin-right: 40%;
+    text-align: center;
+    border-radius: 40px;
+}
+header:hover{
+    box-shadow:0px 0px 12px 12px white;
+}
+fieldset{
+    text-shadow: 0 0 30px green;
+    box-shadow: 0 0 20px green;
+    background-image: url(/img/abstract-green-hexagonal-background-futuristic-technology.jpg);
+    background-repeat: no-repeat;
+    color: white;
+    border-style: solid;
+    border-radius: 20px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    color: limegreen;
+}
+fieldset:hover{
+    box-shadow:0px 0px 12px 12px green;
+}
+legend{
+    text-shadow: 0 0 30px green;
+    box-shadow: 0 0 20px yellow;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    color: limegreen;
+    background-color: grey;
+    width: 55%;
+}
+textarea{
+    resize: vertical;
+    height: 150px;
+}
+hr{
+    border: none;
+    border-bottom: 12px ;
+    border-style: double;
+    border-color: lime;
+    margin: 20px auto 35px;
+    width: 40%;
+}
+.inputs{
+    padding: 5px 15px;
+    width: 100%;
+    background-color: grey;
+}
+.p-sexo{
+    text-align: center;
+}
+.sexo-contenedor{
+    justify-content: end;
+    display: flex;
+    font-style: bold;
+}
+.inputs,textarea{
+    display: flex;
+    width: 80%;
+    height: 35px;
+    border-radius: 15px;
+    border: 3px solid limegreen;
+    background-color: grey;
+    color: black;
+    font-style: bolder;
+}
+.condiciones{
+    color: limegreen;
+    font:   18px 'Josefin', sans-serif;
+    margin-top: 50px;
+}
+#button{
+    display: flex;
+    align-self: center;
+    margin: 50px 400px;
+}
+.botones{
+    background:linear-gradient(60deg,transparent, 65%,green);
+    color: white;
+    border-radius: 5px;
+    width: 150px;
+    height: 45px;
+    font:18px 'Josefin', sans-serif;
+    border: 3px solid green;
+}
+.botones:hover{
+    background:linear-gradient(60deg,transparent,green 65%,green);
+    color: greenyellow;
+}
+
+
+
