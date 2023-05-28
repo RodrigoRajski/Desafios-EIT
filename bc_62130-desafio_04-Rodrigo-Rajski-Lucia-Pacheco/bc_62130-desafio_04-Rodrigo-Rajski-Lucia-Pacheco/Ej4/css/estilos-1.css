@@ -1,0 +1,119 @@
+body{
+    background-color: #CF3165;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.juegos{
+    margin-left: 60px;
+    margin-right: 60px;
+}
+h1{
+    background-color: #AC295C;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    border-left: 6px solid white;
+    border-right: 6px solid white;
+    font-size: 30px;
+}
+main{
+    background-color: #AC295C;
+    padding: 20px;
+    border-radius: 10px;
+}
+h2{
+    color: white;
+}
+article{
+    background-color: white;
+    border-radius: 10px;
+    margin: 30px 0px;
+    padding: 15px;
+    font-size: 15px;
+}
+h3{
+    color: #8F1B39;
+    text-align: right;
+    margin-bottom: 1px;
+}
+hr{
+    border-style: dotted;
+    margin-bottom: 10px;
+}
+img{
+    width: 100%;
+}
+a{
+    background-color:#4B8D33 ;
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 5px;
+    color: white;
+    display: block;
+    width: 150px;
+    margin: 20px auto 0;
+}
+a:hover{
+    background-color: #CF3165;
+}
+
+footer{
+    background-color: #D0648C;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 6px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.h3mario{
+    justify-content: center;
+    text-align: center;
+}
+.mario-foto{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+}
+.pag-kombat{
+    display: flex;
+    justify-content: center;
+}
+.img-kombat{
+    width: 400px;
+    height: 300px;
+    border: 5px solid green;
+    border-radius: 5px;
+}
+.h2-kombat{
+    border-style: solid;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.p-kombat{
+    display: flex;
+    justify-content: unset;
+    vertical-align: bottom;
+}
+.boton-volver-kombat{
+    background-color:#4B8D33 ;
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 5px;
+    color: white;
+    display: block;
+    width: 150px;
+    margin: 20px auto 0;
+}
+.caption{
+    padding: 10px;
+    color: white;
+    border: 6px solid white;
+    font-size: 30px;
+}
